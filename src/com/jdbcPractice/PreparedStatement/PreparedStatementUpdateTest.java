@@ -1,15 +1,10 @@
 package com.jdbcPractice.PreparedStatement;
 
+import com.jdbcPractice.utils.JDBC_Utils;
 import org.junit.Test;
 
-import java.io.InputStream;
-import java.io.ObjectInputStream;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.text.SimpleDateFormat;
-import java.util.Properties;
 
 public class PreparedStatementUpdateTest {
     @Test
